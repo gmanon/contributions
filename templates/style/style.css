@@ -1,0 +1,28 @@
+/**
+ ** Main style file for Contributions
+ ** Author: Guillermina Gonjon
+ ** Date: 01/23/2016
+ **/
+ html { margin:-10;}
+ p,h6,h5,h4,h3,h2,h1,table,div,ul,li,td,form{margin:0;padding:0;}
+ h6,h5,h4,h3,h2,h1 { }
+ h3,h2,h1 { }
+ h6,h5,h4 { }
+ 
+ table {}
+ div    {}
+ ul     {}
+ li     {}
+ a      {}
+ table  {}
+ td     {}
+ form   {}
+ input  {}
+ label  {}
+ select {}
+ blockquote {}
+ 
+ .menu  {}
+ .main-menu {}
+ .top-menu{}
+ .content {}

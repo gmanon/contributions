@@ -9,7 +9,12 @@
 **/
 
 require_once '../initializer.inc.php';
-
+$main_files = array(
+                    CONFIG_DIRECTORY=>'configDB.class.php',
+                    STYLE_DIRECTORY=>'style.css',
+                    TEMPLATES_DIRECTORY=>'GManonTemplate.class.php',
+                    TEMPLATES_DIRECTORY=>'template.inc.php'
+                    );
 foreach($main_files as $directory=>$file)
 {
     check_file($directory=>$file);

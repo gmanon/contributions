@@ -13,6 +13,12 @@ Class BuildMenu{
   public $label = '';
   public $link = '';
   
+  /**
+   * @buildQuery: function 
+   * @returns: object
+   * @params: array of key value
+   **/
+   
   function buildQuery($query=array("key"=>"value")
   { 
   $query = array_unique($query);    // Remove duplicates
@@ -36,10 +42,19 @@ Class BuildMenu{
       
       $counter++;
     }
+    
     return $this->query;
   }
   
+  function buildLink($label,$query,$desc='',$menu_type,$root)
+  {
+    switch($menu_type){
+        case 
+    }
+  }
 }
+
+
 
 
 class MenuController {

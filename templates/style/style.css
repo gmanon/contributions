@@ -3,17 +3,19 @@
  ** Author: Guillermina Gonjon
  ** Date: 01/23/2016
  **/
- html { margin:-10;}
+ html { margin:0;margin-top:10px;padding:0;}
  p,h6,h5,h4,h3,h2,h1,table,div,ul,li,td,form{margin:0;padding:0;}
- h6,h5,h4,h3,h2,h1 { }
- h3,h2,h1 { }
- h6,h5,h4 { }
+ h6,h5,h4,h3,h2,h1 { font-weight:bold; }
+ h3,h2,h1 {font-family:'verdana';}
+ h6,h5,h4 {font-family:'arial'; }
+
+body	{ width: 80%; margin:auto; }
  
- table {}
+ table {border:0;}
  div    {}
- ul     {}
- li     {}
- a      {}
+ ul     {list-style:none;}
+ li     {list-style:none;padding:0;margin:0;}
+ a      {text-decoration:none;}
  table  {}
  td     {}
  form   {}
@@ -22,7 +24,10 @@
  select {}
  blockquote {}
  
- .menu  {}
- .main-menu {}
- .top-menu{}
- .content {}
+ .menu  {color:orange;}
+ .user-menu  {color:black;}
+ .main-menu {color:blue;font-weight:bold;}
+ .search	{ text-align:right; width:40%; }
+ .top-menu{width:40%;text-align:right;}
+ .content {margin-left:20%;}
+.footer   {margin-bottom:0px;width:100%;text-align:center;}
